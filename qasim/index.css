@@ -1,0 +1,92 @@
+body{
+  font-family: Arial;
+  padding:20px;
+  background-color: blue;
+}
+
+.products{
+  display:flex;
+  gap:20px;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.card{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background: rgb(139, 118, 118);
+  border:1px solid #ccc;
+  padding:15px;
+  width:200px;
+  border-radius:10px;
+}
+.card{
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+}
+
+.card:active{
+    transform: scale(0.95);
+}
+
+#cart{
+  margin:20px;
+
+}
+
+button:hover{
+  background:black;
+}
+header{
+  margin: 20px;
+    background:rgb(15, 161, 197);
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+h1{
+    font-size:35px;
+}
+footer{
+    background:rgb(184, 22, 22);
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+
+h2{
+  color: aliceblue;
+  font-size: 24px;
+  font-family: 'Lucida Sans',
+  
+}
+
+
+#searchInput{
+  margin: 30px;
+  padding: 20px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+#searchInput:hover{
+  color: aqua;
+}
+
+
+#box {
+  width: 350px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  padding: 10px;
+  background: black;
+  color: white;
+}
